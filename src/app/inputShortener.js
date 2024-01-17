@@ -24,7 +24,7 @@ const InputShortener = ({ setInputValue }) => {
           onChange={(e) => setValue(e.target.value)}
         />
         <button
-          className="text-red-400 bg-white w-36 h-14 rounded-md ml-4 border-2 border-red-400"
+          className="text-red-400 bg-white hover:bg-neutral-100 w-36 h-14 rounded-md ml-4 border-2 border-red-400"
           onClick={handleClick}
         >
           shorten
